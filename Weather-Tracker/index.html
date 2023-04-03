@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>JD|Weather Tracker</title>
+		<link rel="stylesheet" href="
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap"
+			rel="stylesheet" />
+
+		<link
+			rel="stylesheet"
+			href="../css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Available cities to track are hesse, saxony, bavaria.</h1>
+			<section class="main">
+				<section>
+					<div class="header-containter">
+						<h2 class="header">Weather Tracker</h2>
+					</div>
+				</section>
+				<section class="inputs">
+					<label
+						id="cityLabel"
+						for="placeholder"
+						>Enter your city</label
+					>
+					<input
+						class="cityinput-holder"
+						type="text"
+						placeholder="City name"
+						id="cityInput" />
+
+					<button
+						onclick="onSubmit()"
+						type="submit"
+						value="submit"
+						placeholder="submit"
+						id="submitBtn">
+						Get Radar Data
+					</button>
+				</section>
+			</section>
+
+			<section class="distance-label-container">
+				<label
+					type="text"
+					id="distanceLabel">
+				</label>
+			</section>
+		</div>
+
+		<section class="chart-container">
+			<h2 class="distance-label-container">Temperature Variation</h2>
+			<div class="chartContainer">
+				<canvas id="myChart"></canvas>
+			</div>
+		</section>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places"
+			type="text/javascript"></script>
+
+		<script src="../scripts/app.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+		<script src="../scripts/haversine.js"></script>
+
+		<script src="../scripts/weatherdata.js"></script>
+	</body>
+</html>
