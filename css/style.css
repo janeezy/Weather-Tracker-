@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.container {
+	max-width: 1200px;
+	min-width: 100px;
+	margin: auto;
+	margin-top: 5rem;
+	padding: 2px;
+	border-radius: 1rem;
+}
+
+h2.header {
+	margin: auto;
+	padding-left: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	font-size: xx-large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	justify-content: center;
+	border-width: 1rem;
+	align-self: auto;
+	background-color: rgba(0, 255, 255, 0.361);
+}
+.header {
+	text-align: center;
+}
+.distance-label-container {
+	text-align: center;
+	margin-top: 1.865rem;
+}
+
+.inputs {
+	padding: 1rem 0 1rem 1rem;
+	text-align: center;
+	justify-content: center;
+	background: rgb(19, 18, 18);
+	color: aliceblue;
+}
+label#label-input {
+	margin: auto;
+	align-self: baseline;
+	margin-bottom: 5rem;
+}
+h2::shadow {
+	color: rgb(210, 186, 153);
+}
+
+#cityInput {
+	width: 350px;
+	background-color: white;
+}
+placeholder {
+	margin: auto;
+}
+
+.inputs input[type='text'] {
+	margin-top: 1rem;
+	height: 2rem;
+	width: 100rem;
+	font-weight: 300;
+	font-size: 1rem;
+	padding: 10px;
+	border: 1px solid #c2c2c2;
+	border-radius: 2px;
+	padding-left: 10px;
+	justify-self: center;
+	align-items: center;
+	border-color: crimson;
+	margin-left: -1rem;
+}
+
+label #cityLabel {
+	margin: 3rem;
+}
+
+label {
+	margin: 3rem;
+}
+
+button#submitBtn {
+	height: 3rem;
+	width: 10rem;
+	background: #0a67ca;
+	font-weight: bold;
+	color: white;
+	font-size: 1rem;
+	margin-top: 20px;
+	border: none;
+	border-radius: 2px;
+	margin: 10px;
+}
+.chart-container {
+	padding-top: 4rem;
+	width: 1200px;
+	margin: auto;
+	color: rgb(134, 134, 155);
+	flex-direction: column;
+	display: none;
+}
+.temp-container {
+	display: none;
+}
+
+#myChart {
+	align-items: center;
+	width: 600px;
+	height: 500px;
+	margin-bottom: 3rem;
+}
+#distanceLabel {
+	color: red;
+	opacity: inherit;
+	font-weight: bolder;
+	font-size: xx-large;
+}
+
+::placeholder {
+	margin: auto;
+	color: red;
+	opacity: 1;
+	font-size: small;
+	font-weight: 300;
+}
+
+section.inputs {
+	margin: auto;
+	align-items: center;
+}
+
+h4 {
+	margin-top: 1rem;
+	text-align: right;
+}
+
+.Temp {
+	transition: all;
+}
+
+.map-map {
+	display: flex;
+	margin-right: 30px;
+	width: 400px;
+}
+
+element.style {
+	display: inline;
+}
+
+h1 {
+	margin-top: 1rem;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	margin-left: 13rem;
+	color: rgba(169, 169, 169, 0.789);
+	margin-bottom: 1rem;
+}
