@@ -42,7 +42,7 @@ step6 => added chart.js line chart, in other to implement a line graph, encouter
 
 # Tools/libraries
 
-    1.Google Api
+    1.Google Api Map & Key
     2.Chart.Js
     3.Open weather Map
     4.Haversine Formula
