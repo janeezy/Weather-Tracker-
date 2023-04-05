@@ -44,7 +44,7 @@ step6 => added chart.js line chart, in other to implement a line graph, encouter
 
     1.Google Api Map & Key
     2.Chart.Js
-    3.Open weather Map
+    3.Open weather Map & Key
     4.Haversine Formula
     5.Historical data
 
